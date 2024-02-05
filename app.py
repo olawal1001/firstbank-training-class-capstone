@@ -83,7 +83,7 @@ def generate_prompt(value):
 
 
 app.layout = html.Div([
-    html.H1(children='My Awesome Image Generation App', style={'textAlign':'center'}),
+    html.H1(children="Lekan's Image Generation App", style={'textAlign':'center'}),
     dcc.Input(
         id="basic-prompt-input",
         type="text",
